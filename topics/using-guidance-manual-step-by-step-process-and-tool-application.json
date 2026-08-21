@@ -1,0 +1,156 @@
+{
+  "title": "Using the TBML Guidance Manual: Step-by-Step Process and Tool Application",
+  "slug": "using-guidance-manual-step-by-step-process-and-tool-application",
+  "category": "anti-money-laundering",
+  "organizations": ["United Nations Office on Drugs and Crime", "World Bank Group"],
+  "publisher": "United Nations Office on Drugs and Crime",
+  "year": 2026,
+  "edition": "Advance copy",
+  "resource_type": "Implementation guidance",
+  "source_chapter": "Chapter 5",
+  "purpose": "Provide practical instructions for applying the TBML guidance manual alongside the Excel-based risk assessment tool.",
+  "assessment_steps": [
+    "Data identification and collection",
+    "Assessment of TBML threats",
+    "Assessment of TBML inherent vulnerabilities",
+    "Evaluation of the TBML control landscape",
+    "Conclusions and action plan"
+  ],
+  "rating_scales": {
+    "threats_and_vulnerabilities": {
+      "range": [0.0, 1.0],
+      "meaning": "0.0 means does not exist; 1.0 means most extreme; higher scores indicate greater exposure."
+    },
+    "control_landscape": {
+      "range": [0.0, 1.0],
+      "meaning": "0.0 means does not exist; 1.0 means excellent; higher scores indicate stronger mitigation."
+    }
+  },
+  "tool_templates": {
+    "core_modules": ["Module 1", "Module 2", "Module 3.a mainland", "Module 3.b FTZs"],
+    "master_template": "Master Template for Overall TBML Risk",
+    "optional_module": "Module 4 comparative FTZ risk analysis",
+    "module_4_relationship": "Module 4 may support Module 3.b and relevant parts of Modules 1 and 2, but does not directly feed the master template."
+  },
+  "documentation_requirements": [
+    "Participants in each discussion",
+    "Data and documents reviewed",
+    "Key arguments and caveats",
+    "Deficiencies, weaknesses and gaps",
+    "Final rating and justification",
+    "Minority views or unresolved dissent"
+  ],
+  "data_collection_guidance": {
+    "preferred_time_series": "3-5 years where feasible",
+    "principles": [
+      "Multisource triangulation",
+      "Temporal consistency",
+      "Contextual grounding",
+      "Confidentiality and legally compliant access",
+      "Disaggregation where possible",
+      "Validation across sources"
+    ],
+    "sources": [
+      "FIU STR/SAR statistics and typologies",
+      "Customs declarations, risk-management outputs, audits and seizures",
+      "Law-enforcement and prosecution records",
+      "Tax audits and enforcement results",
+      "Trade, port and transport data",
+      "Mutual legal assistance and international cooperation records",
+      "Supervisory reports and sanctions data",
+      "International typology and standards reports"
+    ]
+  },
+  "threat_variables": {
+    "mainland": [
+      "Investigated TBML cases",
+      "Proceeds of organized or serious crimes",
+      "Proceeds in major trade counterparts",
+      "Contextual pressure factors",
+      "Beneficial-ownership and transparency weaknesses",
+      "Porous borders and cross-border barter",
+      "Government subsidies",
+      "Tax incentives",
+      "Aggressive trade liberalization"
+    ],
+    "free_trade_zones": [
+      "Investigated TBML cases in FTZs",
+      "Proceeds in major FTZ trade counterparts",
+      "FTZ beneficial-ownership and transparency weaknesses",
+      "FTZ tax incentives",
+      "FTZ aggressive trade liberalization"
+    ],
+    "interpretive_caution": "Detected cases may reflect threat level, detection capacity, or both; interpret with the control-landscape assessment.",
+    "flow_direction": ["Outward TBML", "Inward TBML"]
+  },
+  "inherent_vulnerability_variables": {
+    "mainland": [
+      "Shadow banking or informal credit facilities",
+      "Informal value-transfer systems",
+      "Heavy reliance on cash",
+      "High trade volume",
+      "Complex or opaque supply chains",
+      "Dependence on trade facilitators",
+      "Smuggling-prone corridors",
+      "Paper-based documentation and procedures",
+      "Industries with recognized TBML risks",
+      "Unregistered or illegally registered vessels",
+      "Virtual-asset-based trade settlements"
+    ],
+    "free_trade_zones": [
+      "Economic and trade significance of FTZs",
+      "Nature of permitted activities",
+      "Complex or opaque supply chains"
+    ]
+  },
+  "control_landscape": {
+    "modules": ["3.a mainland", "3.b FTZs"],
+    "domains": [
+      "Strategic and institutional controls",
+      "Sectoral and operational controls",
+      "Enabling environment and oversight mechanisms"
+    ],
+    "variables": 31,
+    "ftz_specific_controls": [
+      "Unimpeded access for competent authorities",
+      "Activity disclosure and risk-based exclusions",
+      "Digital inventory and transaction records",
+      "Data exchange with competent authorities",
+      "FTZ liaison mechanism",
+      "Electronic payment mechanisms",
+      "Training and peer learning"
+    ],
+    "principle": "Effectiveness depends on quality, implementation, reach and outcomes, not merely formal existence."
+  },
+  "decision_support_outputs": [
+    "Aggregated risk scores",
+    "Impact map",
+    "Control-gap analysis",
+    "Priority analysis",
+    "Risk-based action plan"
+  ],
+  "anticipated_questions": {
+    "missing_data": "Use documented expert judgment, interviews or proxy indicators and record limitations as action-plan items.",
+    "stakeholder_disagreement": "Use structured evidence review; document dissent and unresolved concerns if consensus is not reached.",
+    "multiple_sessions": "Permitted; preserve continuity through assessment logs and working papers.",
+    "validation": "Use peer review, external consultation, validation workshops and comparisons with other diagnostics.",
+    "excessive_detail": "Prioritize material systemic weaknesses, enforcement gaps and high-risk sectors."
+  },
+  "action_plan_components": [
+    "Legislative or regulatory reform",
+    "Resource allocation and staffing",
+    "Information-sharing infrastructure",
+    "Prevention, detection, investigation and prosecution measures",
+    "Specialized training and awareness",
+    "Public-private engagement and joint typology work",
+    "Owners, timelines, resources and progress indicators"
+  ],
+  "source": {
+    "title": "Self-Assessment Guidance Manual for Trade-Based Money-Laundering Risk Assessment Tool",
+    "chapter": 5,
+    "publisher": "United Nations Office on Drugs and Crime",
+    "co_developer": "World Bank Group",
+    "year": 2026,
+    "edition": "Advance copy"
+  }
+}
