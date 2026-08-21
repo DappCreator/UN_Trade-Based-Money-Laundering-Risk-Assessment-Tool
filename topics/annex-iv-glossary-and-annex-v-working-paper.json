@@ -1,0 +1,78 @@
+{
+  "title": "Annex IV Glossary and Annex V Blank Assessment Working Paper",
+  "slug": "annex-iv-glossary-and-annex-v-working-paper",
+  "category": "anti-money-laundering",
+  "organizations": ["United Nations Office on Drugs and Crime", "World Bank Group"],
+  "publisher": "United Nations Office on Drugs and Crime",
+  "year": 2026,
+  "edition": "Advance copy",
+  "resource_type": "Glossary and assessment template",
+  "source_annexes": ["Annex IV", "Annex V"],
+  "key_definitions": [
+    "Competent authorities",
+    "Free trade zone (FTZ)",
+    "FTZ management",
+    "FTZ economic operator",
+    "Reporting intermediary",
+    "Trade facilitator"
+  ],
+  "competent_authorities": {
+    "reporting_intermediary_context": [
+      "Financial intelligence unit",
+      "Authorities investigating or prosecuting money-laundering, predicate offences and terrorist financing",
+      "Authorities freezing, seizing or confiscating criminal assets",
+      "Authorities receiving cross-border currency and bearer-negotiable-instrument reports",
+      "AML/CFT supervisory or monitoring authorities"
+    ],
+    "ftz_and_trade_facilitator_context": ["Police", "Customs", "Fiscal authorities", "Market-surveillance officials"],
+    "excluded": "Self-regulatory bodies are not competent authorities for the reporting-intermediary definition."
+  },
+  "functional_approach": "Classify trade facilitators by the functions they perform with goods, documentation and financial settlement rather than by formal industry labels alone.",
+  "indicative_trade_facilitators": [
+    "Freight forwarders",
+    "Shipping companies",
+    "Shipping agents",
+    "Non-vessel operating common carriers",
+    "Port operators",
+    "Customs brokers",
+    "Freight insurance providers, unless reporting intermediaries",
+    "Warehouse operators",
+    "Inland container depot operators",
+    "Transport companies",
+    "Export houses",
+    "Inspection companies"
+  ],
+  "working_paper_fields": [
+    "Assessed input variable",
+    "Assessment session/date",
+    "Participants and agencies",
+    "Rating for mainland",
+    "Rating for free trade zones",
+    "Justification and evidence for mainland",
+    "Justification and evidence for FTZs",
+    "Data sources and documents reviewed",
+    "Key arguments, assumptions and caveats",
+    "Deficiencies, data gaps and weaknesses",
+    "Minority views or unresolved disagreement",
+    "Follow-up action",
+    "Responsible institution",
+    "Target date and progress indicator",
+    "Final rating approval/sign-off"
+  ],
+  "documentation_principles": [
+    "Record participants and agencies",
+    "Record data and documents reviewed",
+    "Explain the selected rating",
+    "Separate mainland and FTZ evidence where necessary",
+    "Document caveats, uncertainty and minority views",
+    "Convert material data gaps into action-plan items"
+  ],
+  "source": {
+    "title": "Self-Assessment Guidance Manual for Trade-Based Money-Laundering Risk Assessment Tool",
+    "annexes": ["IV", "V"],
+    "publisher": "United Nations Office on Drugs and Crime",
+    "co_developer": "World Bank Group",
+    "year": 2026,
+    "edition": "Advance copy"
+  }
+}
