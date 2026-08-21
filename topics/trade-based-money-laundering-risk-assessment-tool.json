@@ -1,5 +1,5 @@
 {
-  "title": "Trade-Based Money Laundering Risk Assessment Tool",
+  "title": "Trade-Based Money-Laundering Risk Assessment Tool — Self-Assessment Guidance Manual",
   "slug": "trade-based-money-laundering-risk-assessment-tool",
   "category": "anti-money-laundering",
   "tags": [
@@ -8,59 +8,147 @@
     "risk assessment",
     "UNODC",
     "World Bank",
+    "FATF",
     "customs",
     "free trade zones",
     "financial intelligence units",
-    "anti-corruption"
+    "trade finance",
+    "anti-corruption",
+    "illicit financial flows"
   ],
-  "organization": ["UNODC", "World Bank Group"],
+  "organizations": ["United Nations Office on Drugs and Crime", "World Bank Group"],
+  "publisher": "United Nations Office on Drugs and Crime",
   "year": 2026,
-  "scope": "Global",
-  "resource_type": "Publication and self-assessment framework",
-  "summary": "A modular, evidence-driven framework for jurisdictions to assess trade-based money-laundering threats, inherent vulnerabilities and the effectiveness of controls across the mainland and free trade zones.",
+  "edition": "Advance copy",
+  "scope": {
+    "primary": "International trade in goods",
+    "geographic_streams": ["Mainland", "Free trade zones"],
+    "excluded": [
+      "Trade in services and intangible assets",
+      "Domestic-only trade-based laundering",
+      "Commodity-specific comparative risk assessment",
+      "Terrorist financing independent of money-laundering",
+      "Proliferation financing independent of money-laundering",
+      "Sanctions evasion independent of money-laundering"
+    ]
+  },
+  "resource_type": "Self-assessment guidance manual",
+  "status": "Advance copy",
+  "purpose": [
+    "Assess TBML threats",
+    "Assess inherent vulnerabilities",
+    "Evaluate the control landscape",
+    "Develop prioritized risk-based actions"
+  ],
+  "methodology": {
+    "model": "Tree-like network with input and intermediate variables",
+    "approximate_variable_count": ">70",
+    "risk_components": ["Threats", "Inherent vulnerabilities", "Control landscape effectiveness"],
+    "score_range": [0.0, 1.0],
+    "interpretation": {
+      "threats_and_vulnerabilities": "Higher values indicate higher risk",
+      "controls": "Higher values indicate stronger mitigation"
+    },
+    "aggregation": "Mainland and FTZ results are combined into a jurisdictional residual risk result using GDP contribution and a weakest-link approach.",
+    "assessor_inputs": "Input variables are rated by the multi-agency working group; intermediate variables are calculated automatically using weights, prerequisites and model assumptions."
+  },
   "modules": [
-    "TBML threat",
-    "Inherent vulnerability to TBML",
-    "TBML control landscape"
+    {
+      "number": 1,
+      "name": "TBML threat assessment",
+      "focus": ["Detected TBML activity", "Criminal proceeds", "Contextual incentives", "Mainland and FTZ exposure"]
+    },
+    {
+      "number": 2,
+      "name": "Inherent vulnerability assessment",
+      "focus": ["Trade volumes", "Supply-chain complexity", "Informal finance", "Cash economy", "Technology and regulatory gaps", "Sectoral and FTZ vulnerabilities"]
+    },
+    {
+      "number": 3,
+      "name": "TBML control landscape effectiveness",
+      "focus": ["Policy and coordination", "Information-sharing", "Integrity", "Resources", "Supervision", "Prevention", "Detection", "Investigation", "Prosecution", "Adjudication"]
+    },
+    {
+      "number": 4,
+      "name": "Comparative FTZ risk analysis",
+      "optional": true,
+      "focus": ["Inherent risk factors", "Risk mitigation factors", "Comparative assessment of individual FTZs"]
+    }
   ],
   "assessment_steps": [
     "Data identification and collection",
-    "Threat assessment",
-    "Vulnerability assessment",
-    "Mitigating-measures analysis",
-    "Conclusions and action planning"
+    "Assessment of TBML threats",
+    "Assessment of TBML inherent vulnerabilities",
+    "Evaluation of the TBML control landscape",
+    "Conclusions and action plan"
   ],
-  "recommended_working_group_size": "10-20 members",
-  "primary_institutions": [
-    "Customs authorities",
-    "Financial intelligence units",
-    "Law enforcement agencies",
-    "Financial-sector regulators",
-    "Prosecution services",
-    "Tax authorities",
-    "Free-trade-zone authorities"
-  ],
-  "scoring_scale": {
-    "very_low": 0.2,
-    "low": 0.3,
-    "medium_low": 0.4,
-    "medium": 0.5,
-    "medium_high": 0.6,
-    "high": 0.7,
-    "very_high": 0.8
+  "recommended_working_group": {
+    "size": "Approximately 10-20 members",
+    "core_agencies": [
+      "Customs authorities",
+      "Financial intelligence units",
+      "Law enforcement agencies",
+      "Banking supervisors and financial-sector regulators",
+      "Prosecution services",
+      "Tax and revenue authorities",
+      "Free-trade-zone authorities"
+    ],
+    "additional_participants": ["Port agencies", "Trade ministries", "National statistical authorities"],
+    "required_competencies": [
+      "International trade operations and documentation",
+      "AML/CFT frameworks and FATF standards",
+      "Quantitative and qualitative data analysis",
+      "Cross-institutional collaboration",
+      "Policy development and action planning"
+    ]
   },
-  "outputs": [
-    "Inherent mainland TBML risk",
-    "Residual mainland TBML risk",
-    "Inherent FTZ TBML risk",
-    "Residual FTZ TBML risk",
-    "Overall TBML risk",
-    "Impact map",
-    "Priority analysis and action planning"
+  "data_sources": [
+    "FIU STR/SAR trends, strategic analysis and typologies",
+    "Customs declarations, risk-management outputs, audits, seizures and inspections",
+    "Law-enforcement and prosecutorial records",
+    "Tax audits and enforcement results",
+    "Trade statistics, mirror statistics and foreign-exchange policy documents",
+    "AML/CFT strategies, supervisory reports and sanctions data",
+    "Beneficial-ownership information and trade-finance records",
+    "FATF, IMF, OECD, UNODC, UNCTAD and WCO research and standards"
+  ],
+  "core_tbml_methods": [
+    "Over-invoicing and under-invoicing",
+    "Over-shipment and under-shipment",
+    "Multiple invoicing",
+    "False description and misclassification",
+    "Phantom shipments",
+    "Cash integration through trade"
+  ],
+  "enabling_techniques": [
+    "Third-party payments and complex fund routing",
+    "Shell companies and opaque ownership structures",
+    "Abuse of FTZs and trans-shipment hubs",
+    "Abuse of trade-finance instruments",
+    "Carousel trading and round-tripping"
+  ],
+  "ftz_baseline": [
+    "OECD Council Recommendation on Countering Illicit Trade: Enhancing Transparency in Free Trade Zones",
+    "Code of Conduct for Clean Free Trade Zones"
+  ],
+  "recommended_outputs": [
+    "Risk matrix",
+    "Mainland residual risk result",
+    "FTZ residual risk result",
+    "Overall jurisdictional risk result",
+    "Impact and priority analysis",
+    "Risk-based action plan with owners and timelines"
   ],
   "supporting_materials": {
     "video_tutorials": 15,
-    "brochure_languages": ["English", "Spanish", "French", "Arabic", "Chinese", "Russian"]
+    "brochure_languages": ["English", "Spanish", "French", "Arabic", "Chinese", "Russian"],
+    "annexes": [
+      "Threat variables",
+      "Inherent vulnerability variables",
+      "Quality of the TBML control landscape",
+      "Glossary",
+      "Blank assessment working paper"
+    ]
   },
   "contacts": {
     "UNODC": {
@@ -75,9 +163,11 @@
     }
   },
   "source": {
-    "title": "Trade-Based Money-Laundering Risk Assessment Tool: Self-Assessment Guidance Manual",
-    "publisher": ["UNODC", "World Bank Group"],
+    "title": "Self-Assessment Guidance Manual for Trade-Based Money-Laundering Risk Assessment Tool",
+    "publisher": "United Nations Office on Drugs and Crime",
+    "co_developer": "World Bank Group",
     "year": 2026,
-    "url": "https://www.unodc.org/"
+    "edition": "Advance copy",
+    "location": "Vienna"
   }
 }

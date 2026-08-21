@@ -1,6 +1,5 @@
 # Changelog
 
-[2026-08-21] [Added] [topics/trade-based-money-laundering-risk-assessment-tool.md] - Added the human-readable knowledge article with YAML frontmatter and structured guidance on the UNODC–World Bank TBML risk assessment tool.
-[2026-08-21] [Added] [topics/trade-based-money-laundering-risk-assessment-tool.json] - Added structured metadata for the TBML risk assessment topic.
-[2026-08-21] [Added] [INDEX.md] - Added the central knowledge-base index and topic links.
-[2026-08-21] [Added] [CHANGELOG.md] - Recorded the initial knowledge-base modifications.
+[2026-08-21] [Updated] [topics/trade-based-money-laundering-risk-assessment-tool.md] - Expanded the topic with the advance-copy manual's scope, TBML methods, assessment logic, modules, working-group guidance, data requirements, step-by-step process, FTZ treatment, policy implications and disclaimer.
+[2026-08-21] [Updated] [topics/trade-based-money-laundering-risk-assessment-tool.json] - Expanded structured metadata with methodology, scope boundaries, modules, data sources, TBML methods, FTZ baseline and supporting materials.
+[2026-08-21] [Updated] [INDEX.md] - Refined the topic summary to reflect the full self-assessment manual and its mainland/FTZ assessment streams.
