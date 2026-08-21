@@ -11,3 +11,7 @@
 [2026-08-21] [Added] [topics/optional-module-comparative-ftz-risk-analysis.json] - Added structured metadata for Chapter 6, including the scoring model, risk factors, mitigation factors, outputs and relationship to the core tool.
 [2026-08-21] [Updated] [INDEX.md] - Added the Chapter 6 comparative FTZ risk-analysis topic and metadata link.
 [2026-08-21] [Updated] [CHANGELOG.md] - Recorded the Chapter 6 knowledge-base additions.
+[2026-08-21] [Added] [topics/annex-iii-quality-of-tbml-control-landscape.md] - Added the human-readable Annex III reference with YAML frontmatter and summaries of the 38 TBML control-landscape variables.
+[2026-08-21] [Added] [topics/annex-iii-quality-of-tbml-control-landscape.json] - Added structured metadata for Annex III, including variable groups, rating scale, assessment principles, FTZ controls and evidence domains.
+[2026-08-21] [Updated] [INDEX.md] - Added the Annex III TBML control-landscape topic and metadata link.
+[2026-08-21] [Updated] [CHANGELOG.md] - Recorded the Annex III knowledge-base additions.
