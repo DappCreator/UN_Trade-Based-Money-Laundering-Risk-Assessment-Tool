@@ -1,0 +1,83 @@
+{
+  "title": "Trade-Based Money Laundering Risk Assessment Tool",
+  "slug": "trade-based-money-laundering-risk-assessment-tool",
+  "category": "anti-money-laundering",
+  "tags": [
+    "TBML",
+    "money laundering",
+    "risk assessment",
+    "UNODC",
+    "World Bank",
+    "customs",
+    "free trade zones",
+    "financial intelligence units",
+    "anti-corruption"
+  ],
+  "organization": ["UNODC", "World Bank Group"],
+  "year": 2026,
+  "scope": "Global",
+  "resource_type": "Publication and self-assessment framework",
+  "summary": "A modular, evidence-driven framework for jurisdictions to assess trade-based money-laundering threats, inherent vulnerabilities and the effectiveness of controls across the mainland and free trade zones.",
+  "modules": [
+    "TBML threat",
+    "Inherent vulnerability to TBML",
+    "TBML control landscape"
+  ],
+  "assessment_steps": [
+    "Data identification and collection",
+    "Threat assessment",
+    "Vulnerability assessment",
+    "Mitigating-measures analysis",
+    "Conclusions and action planning"
+  ],
+  "recommended_working_group_size": "10-20 members",
+  "primary_institutions": [
+    "Customs authorities",
+    "Financial intelligence units",
+    "Law enforcement agencies",
+    "Financial-sector regulators",
+    "Prosecution services",
+    "Tax authorities",
+    "Free-trade-zone authorities"
+  ],
+  "scoring_scale": {
+    "very_low": 0.2,
+    "low": 0.3,
+    "medium_low": 0.4,
+    "medium": 0.5,
+    "medium_high": 0.6,
+    "high": 0.7,
+    "very_high": 0.8
+  },
+  "outputs": [
+    "Inherent mainland TBML risk",
+    "Residual mainland TBML risk",
+    "Inherent FTZ TBML risk",
+    "Residual FTZ TBML risk",
+    "Overall TBML risk",
+    "Impact map",
+    "Priority analysis and action planning"
+  ],
+  "supporting_materials": {
+    "video_tutorials": 15,
+    "brochure_languages": ["English", "Spanish", "French", "Arabic", "Chinese", "Russian"]
+  },
+  "contacts": {
+    "UNODC": {
+      "name": "Yevheniy Umanets",
+      "role": "Adviser",
+      "email": "yevheniy.umanets@un.org"
+    },
+    "World Bank": {
+      "name": "Kuntay Celik",
+      "role": "Senior Financial Sector Specialist",
+      "email": "Kcelik@worldbank.org"
+    }
+  },
+  "source": {
+    "title": "Trade-Based Money-Laundering Risk Assessment Tool: Self-Assessment Guidance Manual",
+    "publisher": ["UNODC", "World Bank Group"],
+    "year": 2026,
+    "url": "https://www.unodc.org/"
+  }
+}
