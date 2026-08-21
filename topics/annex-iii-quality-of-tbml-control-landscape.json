@@ -1,0 +1,116 @@
+{
+  "title": "Annex III: Quality of the Trade-Based Money-Laundering Control Landscape",
+  "slug": "annex-iii-quality-of-tbml-control-landscape",
+  "category": "anti-money-laundering",
+  "organizations": ["United Nations Office on Drugs and Crime", "World Bank Group"],
+  "publisher": "United Nations Office on Drugs and Crime",
+  "year": 2026,
+  "edition": "Advance copy",
+  "resource_type": "Assessment-variable reference",
+  "source_annex": "Annex III",
+  "scope": ["Mainland", "Free trade zones"],
+  "rating_scale": {
+    "range": [0.0, 1.0],
+    "direction": "Higher values indicate stronger control effectiveness",
+    "labels": {
+      "1.0": "Excellent",
+      "0.9": "Close to excellent",
+      "0.8": "Very high",
+      "0.7": "High",
+      "0.6": "Medium-high",
+      "0.5": "Medium",
+      "0.4": "Medium-low",
+      "0.3": "Low",
+      "0.2": "Very low",
+      "0.1": "Minimal",
+      "0.0": "Does not exist"
+    }
+  },
+  "variable_count": 38,
+  "variable_groups": {
+    "strategic_cooperation_integrity": [
+      "National commitment, policy and coordination on TBML",
+      "Domestic cooperation and information-sharing for TBML",
+      "International cooperation and information-sharing",
+      "Control of corruption in the jurisdiction"
+    ],
+    "trade_facilitators": [
+      "Knowledge of trade facilitators on TBML",
+      "Integrity of trade facilitators",
+      "Controls and oversight over trade facilitators",
+      "Record-keeping, monitoring and cooperation of trade facilitators"
+    ],
+    "reporting_intermediaries": [
+      "Integrity of management and staff",
+      "Human resources for TBML controls",
+      "Supervision",
+      "Sanctions",
+      "Knowledge of staff on TBML",
+      "Customer due diligence, monitoring and record-keeping"
+    ],
+    "customs": [
+      "IT-based monitoring",
+      "Physical detection tools",
+      "Staff knowledge and skills",
+      "Human resources",
+      "Fit-and-proper checks and internal corruption controls"
+    ],
+    "fius": [
+      "Fit-and-proper checks and internal corruption controls",
+      "Knowledge and skills of FIU staff",
+      "Resources and tools"
+    ],
+    "investigators": [
+      "Fit-and-proper checks and internal corruption controls",
+      "Knowledge and skills",
+      "Resources"
+    ],
+    "prosecutors": [
+      "Fit-and-proper checks and internal corruption controls",
+      "Knowledge and skills",
+      "Resources"
+    ],
+    "judiciary": [
+      "Fit-and-proper checks and internal corruption controls",
+      "Knowledge and skills of judges",
+      "Resources"
+    ],
+    "ftz_specific_clean_zone_controls": [
+      "Unimpeded access for competent authorities",
+      "Activity disclosure and risk-based exclusions",
+      "Digital inventory and transaction records",
+      "Data exchange with competent authorities",
+      "FTZ liaison mechanism",
+      "Electronic payment mechanisms",
+      "Training and peer learning"
+    ]
+  },
+  "assessment_principles": [
+    "Assess design, implementation, reach and outcomes.",
+    "Do not treat formal existence of a law or policy as proof of effectiveness.",
+    "Use evidence from administrative records, audits, case outcomes, interviews and external assessments.",
+    "Maintain separate mainland and FTZ ratings where required.",
+    "Document participants, evidence, caveats, deficiencies, rationale and follow-up actions."
+  ],
+  "ftz_reference": "OECD Code of Conduct for Clean Free Trade Zones under the Recommendation of the Council on Countering Illicit Trade.",
+  "evidence_domains": [
+    "National strategies, laws and regulations",
+    "Inter-agency agreements and task-force records",
+    "Budgets, staffing and training records",
+    "Supervisory, audit and enforcement reports",
+    "STR/SAR and case statistics",
+    "Customs, tax, shipping and trade data",
+    "IT architecture and interoperability records",
+    "FTZ registers, digital inventory and data-exchange logs",
+    "Private-sector consultations and surveys",
+    "International evaluations and peer reviews"
+  ],
+  "source": {
+    "title": "Self-Assessment Guidance Manual for Trade-Based Money-Laundering Risk Assessment Tool",
+    "annex": "III",
+    "publisher": "United Nations Office on Drugs and Crime",
+    "co_developer": "World Bank Group",
+    "year": 2026,
+    "edition": "Advance copy"
+  }
+}
