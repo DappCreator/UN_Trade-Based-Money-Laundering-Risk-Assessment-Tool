@@ -1,0 +1,82 @@
+{
+  "title": "Optional Module for Comparative Risk Analysis of Free Trade Zones (Module 4)",
+  "slug": "optional-module-comparative-ftz-risk-analysis",
+  "category": "anti-money-laundering",
+  "organizations": ["United Nations Office on Drugs and Crime", "World Bank Group"],
+  "publisher": "United Nations Office on Drugs and Crime",
+  "year": 2026,
+  "edition": "Advance copy",
+  "resource_type": "Optional risk-analysis module",
+  "source_chapter": "Chapter 6",
+  "purpose": [
+    "Compare the relative risk profiles of multiple FTZs",
+    "Rank FTZs for supervisory and operational prioritization",
+    "Identify zone-specific threats, vulnerabilities and control gaps"
+  ],
+  "model": {
+    "type": "Weighted average",
+    "stages": ["Calculate inherent risk", "Apply mitigation factors", "Calculate residual risk"],
+    "customizable_assumptions": [
+      "Indicator names",
+      "Indicator inclusion or removal",
+      "Indicator weights",
+      "Linear or geometric mitigation impact",
+      "Unmitigable or rock-bottom risk proportion"
+    ],
+    "assumptions_page": "Hidden by default; can be revealed by right-clicking an Excel worksheet tab.",
+    "documentation_rule": "All changes to indicators, weights or assumptions must be justified and documented."
+  },
+  "assessment_unit": "Individual free trade zone",
+  "inherent_risk_factors": [
+    "Trade volume",
+    "Complexity of supply chains and trade transactions",
+    "Transaction patterns",
+    "Counterparty profile",
+    "Product prevalence and sector concentration",
+    "Corporate opacity",
+    "Geography and logistics",
+    "Trade finance and payment channels",
+    "Crime context"
+  ],
+  "risk_mitigation_factors": [
+    "Beneficial ownership transparency",
+    "AML/CFT monitoring and reporting",
+    "AML/CFT supervision",
+    "Authorization, onboarding and periodic reviews",
+    "Record-keeping",
+    "Customs controls and footprint",
+    "Targeting and inspections",
+    "Physical security",
+    "Staffing",
+    "Digitalization"
+  ],
+  "outputs": [
+    "FTZ-specific inherent-risk score",
+    "FTZ-specific residual-risk score",
+    "Comparative FTZ ranking",
+    "Zone-specific threat and risk-factor profile",
+    "Supervisory and action-planning priorities"
+  ],
+  "relationship_to_core_tool": {
+    "master_template": "Module 4 does not directly feed the Master Template for Overall TBML Risk.",
+    "supporting_modules": ["Module 3.b FTZ control landscape", "Module 1 threat assessment", "Module 2 inherent vulnerability assessment"],
+    "jurisdiction_without_multiple_ftzs": "Use is generally unnecessary unless a more granular zone assessment is desired."
+  },
+  "documentation_requirements": [
+    "Participants and responsible agencies",
+    "Data sources and documents reviewed",
+    "Rating and evidence-based rationale",
+    "Threats and specific risk factors",
+    "Assumptions, caveats and limitations",
+    "Changes to indicators, weights or model assumptions",
+    "Follow-up actions, owners and timelines"
+  ],
+  "source": {
+    "title": "Self-Assessment Guidance Manual for Trade-Based Money-Laundering Risk Assessment Tool",
+    "chapter": 6,
+    "publisher": "United Nations Office on Drugs and Crime",
+    "co_developer": "World Bank Group",
+    "year": 2026,
+    "edition": "Advance copy"
+  }
+}
