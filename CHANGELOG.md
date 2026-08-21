@@ -7,3 +7,7 @@
 [2026-08-21] [Added] [topics/using-guidance-manual-step-by-step-process-and-tool-application.json] - Added structured metadata for Chapter 5, including rating scales, template relationships, data requirements, variables, control domains and action-plan components.
 [2026-08-21] [Updated] [INDEX.md] - Added the Chapter 5 implementation topic and its metadata link.
 [2026-08-21] [Updated] [CHANGELOG.md] - Recorded the Chapter 5 knowledge-base additions.
+[2026-08-21] [Added] [topics/optional-module-comparative-ftz-risk-analysis.md] - Added the human-readable Chapter 6 guide covering comparative FTZ risk analysis, weighted scoring, customization, inherent-risk factors, mitigation factors and documentation.
+[2026-08-21] [Added] [topics/optional-module-comparative-ftz-risk-analysis.json] - Added structured metadata for Chapter 6, including the scoring model, risk factors, mitigation factors, outputs and relationship to the core tool.
+[2026-08-21] [Updated] [INDEX.md] - Added the Chapter 6 comparative FTZ risk-analysis topic and metadata link.
+[2026-08-21] [Updated] [CHANGELOG.md] - Recorded the Chapter 6 knowledge-base additions.
